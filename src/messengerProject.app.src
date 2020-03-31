@@ -1,0 +1,13 @@
+{application, messengerProject,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  ranch
+                 ]},
+  {mod, { messengerProject_app, []}},
+  {env, []}
+ ]}.
